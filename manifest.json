@@ -1,0 +1,26 @@
+{
+  "name": "Tank Rush",
+  "short_name": "Tank Rush",
+  "description": "2 Cars tarzı çift tank oyunu — her iki tarafı aynı anda kontrol et!",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d1117",
+  "theme_color": "#1F2831",
+  "lang": "tr",
+  "categories": ["games"],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

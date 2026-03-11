@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- App background — Dark Navy rounded square -->
+  <rect width="512" height="512" rx="110" fill="#1F2831"/>
+
+  <!-- Subtle field gradient overlay -->
+  <rect width="512" height="512" rx="110" fill="#2A4C47" opacity="0.45"/>
+
+  <!-- Road / lane hint (center vertical strip) -->
+  <rect x="218" y="0" width="76" height="512" rx="0" fill="#162820" opacity="0.5"/>
+
+  <!-- ── TANK ── -->
+
+  <!-- Track left -->
+  <rect x="90" y="148" width="52" height="216" rx="20" fill="#2A4C47"/>
+  <!-- Track right -->
+  <rect x="370" y="148" width="52" height="216" rx="20" fill="#2A4C47"/>
+
+  <!-- Track links left -->
+  <rect x="91"  y="168" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="91"  y="188" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="91"  y="208" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="91"  y="228" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="91"  y="248" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="91"  y="268" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="91"  y="288" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="91"  y="308" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="91"  y="328" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <!-- Track links right -->
+  <rect x="371" y="168" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="371" y="188" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="371" y="208" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="371" y="228" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="371" y="248" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="371" y="268" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="371" y="288" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="371" y="308" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+  <rect x="371" y="328" width="50" height="6" rx="2" fill="#1F2831" opacity="0.6"/>
+
+  <!-- Hull shadow -->
+  <rect x="138" y="158" width="236" height="242" rx="34" fill="#357172" opacity="0.7"/>
+  <!-- Hull body -->
+  <rect x="136" y="148" width="240" height="236" rx="32" fill="#4C8586"/>
+  <!-- Hull highlight bevel -->
+  <rect x="148" y="160" width="128" height="44" rx="14" fill="#B0F5ED" opacity="0.28"/>
+  <!-- Hull bottom shadow -->
+  <rect x="136" y="334" width="240" height="50" rx="32" fill="#2A4C47" opacity="0.5"/>
+
+  <!-- Turret outer ring (gold) -->
+  <circle cx="256" cy="282" r="80" fill="#C28D3A" opacity="0.9"/>
+  <!-- Turret rim (dark) -->
+  <circle cx="256" cy="282" r="72" fill="#357172"/>
+  <!-- Turret body -->
+  <circle cx="256" cy="282" r="62" fill="#58B6B8"/>
+  <!-- Turret hatch -->
+  <circle cx="256" cy="282" r="30" fill="#2A4C47"/>
+  <circle cx="256" cy="282" r="20" fill="#4C8586"/>
+  <!-- Hatch highlight -->
+  <circle cx="246" cy="272" r="9" fill="#B0F5ED" opacity="0.45"/>
+
+  <!-- Rivets (4) -->
+  <circle cx="256" cy="218" r="9" fill="#C28D3A"/>
+  <circle cx="192" cy="256" r="7" fill="#B8A342" opacity="0.85"/>
+  <circle cx="320" cy="256" r="7" fill="#B8A342" opacity="0.85"/>
+  <circle cx="256" cy="346" r="7" fill="#B8A342" opacity="0.7"/>
+
+  <!-- ── BARREL ── -->
+  <!-- Barrel shadow -->
+  <rect x="254" y="52" width="20" height="140" rx="8" fill="#1F2831" opacity="0.4"/>
+  <!-- Barrel shaft -->
+  <rect x="242" y="46" width="28" height="136" rx="10" fill="#357172"/>
+  <!-- Barrel highlight -->
+  <rect x="245" y="50" width="10" height="120" rx="5" fill="#58B6B8" opacity="0.5"/>
+  <!-- Muzzle brake top -->
+  <rect x="232" y="46" width="48" height="26" rx="9" fill="#2A4C47"/>
+  <!-- Muzzle brake mid -->
+  <rect x="232" y="86" width="48" height="16" rx="6" fill="#2A4C47" opacity="0.7"/>
+</svg>
