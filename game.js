@@ -677,10 +677,6 @@ class GameScene extends Phaser.Scene {
       this.tweens.add({ targets: this.rightTank, x: tx, duration: 95, ease: 'Quad.easeOut' });
       this.rightShadow.x = tx + 3;
     }
-    // Ripple flash
-    const fx = side === 'left' ? W * 0.25 : W * 0.75;
-    const flash = this.add.rectangle(fx, H * 0.5, W * 0.5, H, 0xffffff, 0.14).setDepth(12);
-    this.tweens.add({ targets: flash, alpha: 0, duration: 110, onComplete: () => flash.destroy() });
   }
 
   // ── Spawner ───────────────────────────────────────────────────────────────
