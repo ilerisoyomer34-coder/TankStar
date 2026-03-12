@@ -1,7 +1,7 @@
 {
-  "name": "Tank Rush",
-  "short_name": "Tank Rush",
-  "description": "2 Cars tarzı çift tank oyunu — her iki tarafı aynı anda kontrol et!",
+  "name": "Tank Star",
+  "short_name": "Tank Star",
+  "description": "Top-down tank savaş oyunu — düşmanları yok et, dalgaları geç!",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
